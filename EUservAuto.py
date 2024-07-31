@@ -13,18 +13,18 @@ import requests
 from bs4 import BeautifulSoup
 
 # 多个账户请使用空格隔开
-USERNAME = os.environ["USERNAME"]  # 用户名或邮箱
-PASSWORD = os.environ["PASSWORD"]  # 密码
+USERNAME = os.environ["Neopolitan"]  # 用户名或邮箱
+PASSWORD = os.environ["20081031mnopQ."]  # 密码
 
 # TrueCaptcha https://apitruecaptcha.org
 # 验证码识别，默认使用 Demo API，每天有100次免费额度，建议自行注册以确保稳定性
-USERID = os.environ["USERID"]
-APIKEY = os.environ["APIKEY"]
+USERID = os.environ["ironblock6666@gmail.com"]
+APIKEY = os.environ["GaGnMgtWknvcVgY8hSzK"]
 TRUECAPTCHA_CHECK_USAGE = True
 
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
-TG_BOT_TOKEN = ""  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
-TG_USER_ID = ""  # 用户、群组或频道 ID，示例：129xxx206
+TG_BOT_TOKEN = "6870850559:AAEMgYZaNd-wNywgyE9EP6xWSw18PzaH9r8"  # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
+TG_USER_ID = "5120805935"  # 用户、群组或频道 ID，示例：129xxx206
 TG_API_HOST = "https://api.telegram.org"  # 自建 API 反代地址，供网络环境无法访问时使用，网络正常则保持默认
 
 
